@@ -18,4 +18,14 @@ vim.cmd("set showtabline=2")
 -- [[Leader Key]]
 vim.g.mapleader = " "
 
+-- Uncomment this if you want to yank to the system clipboard.
+-- REQUIRED PACKAGE : "xclip".
+-- Install "xclip" package for this to work.
+
+-- Yank to the system clipboard in normal and visual modes
+-- vim.api.nvim_set_keymap('n', 'y', '"+y', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap('v', 'y', '"+y', { noremap = true, silent = true })
+
+-- Yank a line to the system clipboard
+-- vim.api.nvim_set_keymap('n', 'yy', '"+yy', { noremap = true, silent = true })
 

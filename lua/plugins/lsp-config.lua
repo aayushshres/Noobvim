@@ -18,7 +18,7 @@ return {
                     "html",
                     "jsonls",
                     "jdtls",
-                    "tsserver",
+                    "ts_ls",
                     "pyright",
                     "taplo",
                     "lemminx",
@@ -40,7 +40,7 @@ return {
             lspconfig.html.setup{}
             lspconfig.jsonls.setup{}
             lspconfig.jdtls.setup{}
-            lspconfig.tsserver.setup{}
+            lspconfig.ts_ls.setup{}
             lspconfig.pyright.setup{}
             lspconfig.taplo.setup{}
             lspconfig.lemminx.setup{}
